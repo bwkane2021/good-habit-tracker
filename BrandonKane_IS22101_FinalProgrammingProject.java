@@ -37,22 +37,25 @@ public class BrandonKane_IS22101_FinalProgrammingProject {
          * integer variable named intFreqOfHabitCompletion will hold the numbers that
          * represent how often the user would like to complete each habit. This will be
          * used to determine the date that the user will need to complete each habit by
-         * next. Fourth, I created an integer variable named intHabitPeriodCounter,
-         * which will be used to keep track of how many times the user has had the
-         * opportunity to complete their habits (how many periods of habit completion
-         * have occured). Fifth, I created a boolean variable called
-         * blnNumberOfGoodHabitsIsInteger that will be used to help determine if the
-         * user has entered an integer or not when they are prompted to enter the number
-         * of habits that they would like to track. Sixth, the boolean named
-         * blnEntryIsYorN will be used to test if the user has entered a "Y" or an "N"
-         * when they are asked if they would like to start the habit tracker. Next, the
-         * boolean named blnEntryIsQ will be used to test if the user has entered a "Q"
-         * when they are asked if they completed each habit. I also created the String
-         * variable named strStartHabitTracker, which will hold either "Y" or "N" when
-         * the user enters their response to whether they would like to start the habit
-         * tracker. Lastly, I created the String variable named strHabitCompletionYorN,
-         * which will hold the user's response to whether or not they completed each
-         * habit.
+         * next.
+         * 
+         * Fourth, I created an integer variable named intHabitPeriodCounter, which will
+         * be used to keep track of how many times the user has had the opportunity to
+         * complete their habits (how many periods of habit completion have occured).
+         * Fifth, I created a boolean variable called blnNumberOfGoodHabitsIsInteger
+         * that will be used to help determine if the user has entered an integer or not
+         * when they are prompted to enter the number of habits that they would like to
+         * track. Sixth, the boolean named blnEntryIsYorN will be used to test if the
+         * user has entered a "Y" or an "N" when they are asked if they would like to
+         * start the habit tracker.
+         * 
+         * Next, the boolean named blnEntryIsQ will be used to test if the user has
+         * entered a "Q" when they are asked if they completed each habit. I also
+         * created the String variable named strStartHabitTracker, which will hold
+         * either "Y" or "N" when the user enters their response to whether they would
+         * like to start the habit tracker. Lastly, I created the String variable named
+         * strHabitCompletionYorN, which will hold the user's response to whether or not
+         * they completed each habit.
          */
         Scanner scnMyKeyboard = new Scanner(System.in);
         int intArraySize;
